@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tn3270PlusDde
+namespace Tn3270PlusDde.Interfaces
 {
-    public class Class1
+    public interface ITn3270PlusDdeClient
     {
+        void ConnectService();
+        string GetScreen();
     }
 }
