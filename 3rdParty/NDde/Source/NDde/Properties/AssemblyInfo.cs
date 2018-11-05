@@ -70,7 +70,7 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("2.01.0563.0")]
-[assembly: AssemblyFileVersion("2.01.0563.0")] // 1/17/2005 is the original build date
+[assembly: AssemblyVersion("2.02.0.0")]
+[assembly: AssemblyFileVersion("2.02.0.0")] // 1/17/2005 is the original build date
 
 [assembly: CLSCompliant(true)]

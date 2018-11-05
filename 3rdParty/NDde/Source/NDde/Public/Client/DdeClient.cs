@@ -402,7 +402,7 @@ namespace NDde.Client
 
             try
                 {
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
                 Context.Invoke(method);
                 }
             catch (DdemlException e)
