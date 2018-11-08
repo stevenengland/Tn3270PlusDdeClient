@@ -97,7 +97,7 @@ namespace NDde.Advanced
                     new WeakReferenceDictionary<ISynchronizeInvoke, DdeContext>();
 
                 private DdemlContext _DdemlObject; // This has lazy initialization through a property.
-                private Encoding _Encoding = Encoding.ASCII; // This is a cached DdemlContext property.
+                private Encoding _Encoding = Encoding.GetEncoding(1252); // This is a cached DdemlContext property.
 
                 private int _InstanceId; // This is a cached DdemlContext property.
                 private bool _IsInitialized; // This is a cached DdemlContext property.
