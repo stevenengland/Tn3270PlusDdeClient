@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="3rdParty\NDde\Source\NDde\NDde.csproj">
+    <ProjectReference Include="ndde\Source\NDde\NDde.csproj">
       <Project>{d77772f9-3d3d-40ba-b95f-05c45878078f}</Project>
       <Name>NDde</Name>
     </ProjectReference>
