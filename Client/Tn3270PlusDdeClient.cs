@@ -40,6 +40,11 @@ namespace Tn3270PlusDde.Client
             return String.Join(Environment.NewLine, parts);
         }
 
+        public string GetKeyboardState(string topic)
+        {
+            return DdeRequest(topic, "Keyboard");
+        }
+
         public string GetActiveSessionNumber()
         {
             return DdeRequest("system", "activesession");
