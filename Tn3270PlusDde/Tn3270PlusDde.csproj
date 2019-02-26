@@ -6,8 +6,8 @@
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="$(SolutionDir)\stylecop\stylecop.json">
-		<Link>stylecop.json</Link>
-	</AdditionalFiles>
+      <Link>stylecop.json</Link>
+    </AdditionalFiles>
   </ItemGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -49,9 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\Tn3270PlusDdeClient.cs" />
+    <Compile Include="DdeProvider\IDdeProvider.cs" />
+    <Compile Include="DdeProvider\NDdeProvider.cs" />
     <Compile Include="Exceptions\Tn3270PlusDdeException.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
-    <Compile Include="Interfaces\ITn3270PlusDdeClient.cs" />
+    <Compile Include="Client\ITn3270PlusDdeClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +61,13 @@
       <Project>{d77772f9-3d3d-40ba-b95f-05c45878078f}</Project>
       <Name>NDde</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
