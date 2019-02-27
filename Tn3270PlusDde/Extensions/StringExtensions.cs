@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Tn3270PlusDde.Extensions
+namespace StEn.Tn3270PlusDde.Extensions
 {
     internal static class StringExtensions
     {

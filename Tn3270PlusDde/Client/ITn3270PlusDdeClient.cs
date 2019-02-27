@@ -1,4 +1,4 @@
-﻿namespace Tn3270PlusDde.Client
+﻿namespace StEn.Tn3270PlusDde.Client
 {
     public interface ITn3270PlusDdeClient
     {

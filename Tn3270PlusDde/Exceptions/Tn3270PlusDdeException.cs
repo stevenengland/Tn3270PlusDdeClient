@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tn3270PlusDde.Exceptions
+namespace StEn.Tn3270PlusDde.Exceptions
 {
     public class Tn3270PlusDdeException : Exception
     {

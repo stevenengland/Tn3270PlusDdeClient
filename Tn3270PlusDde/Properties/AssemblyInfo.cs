@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tn3270PlusDde")]
+[assembly: AssemblyTitle("Tn3270PlusDdeClient")]
 [assembly: AssemblyDescription("A wrapper for the TN3270 Plus DDE interface")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Tn3270PlusDde")]
+[assembly: AssemblyCompany("StEn")]
+[assembly: AssemblyProduct("Tn3270PlusDdeClient")]
 [assembly: AssemblyCopyright("Copyright © Steven England - https://steven-england.info")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -15,8 +15,8 @@
     <ProjectGuid>{6C5A6A48-6400-40F9-B3BC-63C2D0C60C7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tn3270PlusDde</RootNamespace>
-    <AssemblyName>Tn3270PlusDde</AssemblyName>
+    <RootNamespace>StEn.Tn3270PlusDde</RootNamespace>
+    <AssemblyName>Tn3270PlusDdeClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

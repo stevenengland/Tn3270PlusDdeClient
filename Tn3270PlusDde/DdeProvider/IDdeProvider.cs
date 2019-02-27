@@ -1,4 +1,4 @@
-﻿namespace Tn3270PlusDde.DdeProvider
+﻿namespace StEn.Tn3270PlusDde.DdeProvider
 {
     public interface IDdeProvider
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using NDde;
 using NDde.Client;
-using Tn3270PlusDde.Exceptions;
+using StEn.Tn3270PlusDde.Exceptions;
 
-namespace Tn3270PlusDde.DdeProvider
+namespace StEn.Tn3270PlusDde.DdeProvider
 {
     public class NDdeProvider : IDdeProvider
     {

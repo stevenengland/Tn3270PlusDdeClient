@@ -1,9 +1,9 @@
 ﻿using System;
-using Tn3270PlusDde.DdeProvider;
-using Tn3270PlusDde.Exceptions;
-using Tn3270PlusDde.Extensions;
+using StEn.Tn3270PlusDde.DdeProvider;
+using StEn.Tn3270PlusDde.Exceptions;
+using StEn.Tn3270PlusDde.Extensions;
 
-namespace Tn3270PlusDde.Client
+namespace StEn.Tn3270PlusDde.Client
 {
     /*
     http://www.sdisw.com/tn3270/manual/index.html

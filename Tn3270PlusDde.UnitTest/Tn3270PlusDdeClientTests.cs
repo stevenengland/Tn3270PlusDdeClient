@@ -1,10 +1,10 @@
 ﻿using System;
 using Moq;
-using Tn3270PlusDde.Client;
-using Tn3270PlusDde.DdeProvider;
+using StEn.Tn3270PlusDde.Client;
+using StEn.Tn3270PlusDde.DdeProvider;
 using Xunit;
 
-namespace Tn3270PlusDde.UnitTest
+namespace StEn.Tn3270PlusDde.UnitTest
 {
     public class Tn3270PlusDdeClientTests
     {

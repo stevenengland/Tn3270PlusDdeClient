@@ -20,7 +20,7 @@
     <ProjectGuid>{8B1D08F0-91A4-417B-9274-BB5BA8ACF618}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tn3270PlusDde.UnitTest</RootNamespace>
+    <RootNamespace>StEn.Tn3270PlusDde.UnitTest</RootNamespace>
     <AssemblyName>Tn3270PlusDde.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -101,9 +101,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tn3270PlusDde\Tn3270PlusDde.csproj">
+    <ProjectReference Include="..\Tn3270PlusDde\Tn3270PlusDdeClient.csproj">
       <Project>{6c5a6a48-6400-40f9-b3bc-63c2d0c60c7a}</Project>
-      <Name>Tn3270PlusDde</Name>
+      <Name>Tn3270PlusDdeClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
