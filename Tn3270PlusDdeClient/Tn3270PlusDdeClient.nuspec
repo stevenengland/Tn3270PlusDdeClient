@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>stevenengland</owners>
+    <title>$title$</title>
+    <licenseUrl>https://github.com/stevenengland/Tn3270PlusDdeClient/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/stevenengland/Tn3270PlusDdeClient</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>tn3270plus tn3270 dde</tags>
+  </metadata>
+</package>

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tn3270PlusDdeClient", "Tn3270PlusDde\Tn3270PlusDdeClient.csproj", "{6C5A6A48-6400-40F9-B3BC-63C2D0C60C7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tn3270PlusDdeClient", "Tn3270PlusDdeClient\Tn3270PlusDdeClient.csproj", "{6C5A6A48-6400-40F9-B3BC-63C2D0C60C7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDde", "ndde\Source\NDde\NDde.csproj", "{D77772F9-3D3D-40BA-B95F-05C45878078F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tn3270PlusDdeClient.UnitTest", "Tn3270PlusDde.UnitTest\Tn3270PlusDdeClient.UnitTest.csproj", "{8B1D08F0-91A4-417B-9274-BB5BA8ACF618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tn3270PlusDdeClient.UnitTest", "Tn3270PlusDdeClient.UnitTest\Tn3270PlusDdeClient.UnitTest.csproj", "{8B1D08F0-91A4-417B-9274-BB5BA8ACF618}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF11752A-0E71-476A-B251-F4B697755614}"
 	ProjectSection(SolutionItems) = preProject

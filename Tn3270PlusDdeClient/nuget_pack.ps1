@@ -1,0 +1,1 @@
+nuget.exe pack "Tn3270PlusDdeClient.csproj" -Build -IncludeReferencedProjects -Properties "Configuration=Release";
